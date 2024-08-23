@@ -18,6 +18,10 @@ router.get('/fetchallnotes', fetchUser, async (req, res) => {
     }
 })
 
+router.get('/loki', async (res) => {
+  res.send("hello !");
+})
+
 // ROUTE 2: add a new note. using: POST "api/notes/addnote". Login required
 router.post('/addnote', fetchUser, [
     body('title', 'Enter a valid title').isLength({ min: 3 }),

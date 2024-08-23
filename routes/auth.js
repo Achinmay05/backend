@@ -112,4 +112,12 @@ try {
   res.status(500).send("Some Error has Occured");
 }
 })
+
+//ROUTE 3: get logged in user details using POST "api/auth/getuser". Login required
+// router.get('/loki', async (res) => {
+//   console.log("hao");
+//   success = true;
+//   return res.json({ error: "Credentials" });
+//   })
+
 module.exports = router 
