@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "index.js",
-    "build": "npm install && npm run build",
-     "build-only": "echo 'Build step without tests'"
+    "build": "npm install && npm run build-only",
+    "build-only": "echo 'Build step without tests'",
+    "test": "echo \"No tests specified\""
   },
   "author": "",
   "license": "ISC",
